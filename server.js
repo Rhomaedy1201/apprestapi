@@ -6,7 +6,7 @@ const app = express();
 app.use(bodyParser.urlencoded({ extended: true }));
 app.use(bodyParser.json());
 
-// paggil routers
+// panggil routers
 var routers = require('./routers');
 routers(app);
 
